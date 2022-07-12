@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"> 
+<meta charset="UTF-8"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./public/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Open+Sans&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </style>
 </head>
-<body class="bg-black"> 
-  <div class="section1 bg-slate-200">
-    <img src="./images/logo.svg" alt="">
-    <div class="banner flex flex-row bg-black" >
-      <div class="features bg-green-900">
+<body class="bg-[#f6f6fe] flex flex-col gap-4 "> 
+  <div class="section1 flex flex-row justify-around items-center pt-5 ">
+    <img src="./images/logo.svg" alt="" class=" w-[80px]">
+    <div class="banner flex flex-row gap-4" >
+      <div class="features text-[	#bfbfbf] font-[Raleway] text-base font-medium ">
         Features
       </div>
-      <div class="team">Team</div>
-      <div class="authentification">Sign In</div>
+      <div class="team text-[	#bfbfbf] font-[Raleway] text-base font-medium">Team</div>
+      <div class="authentification text-[	#bfbfbf] font-[Raleway] text-base font-medium">Sign In</div>
     </div>
   </div>
-  <div class="section2">
-    <img src="./images/illustration-1.svg" alt="">
-    <div class="all">All your files in one secure location, accessible anywhere.</div>
-    <div class="fylo">Fylo stores your most important files in one secure location. </div>
-    <button>
-      Enter your email.
-    </button>
-    <button>
-      Get Started
-    </button>
+  <div class="section2 flex flex-col pl-8 gap-3">
+    <img src="./images/illustration-1.svg" alt="" class="w-64 h-64">
+    <div class="all  font-[Open Sans] text-lg text-center font-black w-[240px]  ">All your files in one secure location, accessible anywhere.</div>
+    <div class="fylo font-[Raleway] text-sm text-center w-[300px]">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers </div>
+    <div class="cases flex flex-col gap-3">
+      <button class="bg-white rounded-md border-slate-900 border-2 w-[240px] h-10 text-left pl-3 text-[#bfbfbf] ">
+        Enter your email...
+      </button>
+      <button class="bg-[#3065f8] shadow-black rounded-md border-transparent border-2 w-[240px] h-10 text-center pl-3 text-white" >
+        Get Started
+      </button>
+    </div>
   </div>
-  <div class="section3">
-    <img src="./images/logo.svg" alt="">
-    <div class="stay">Stay productive, wherever you are</div>
-    <div class="never">
+  <div class="section3 flex flex-col pl-8 gap-3">
+    <img src="./images/illustration-2.svg" alt="" class="w-64 h-64">
+    <div class="stay font-[Open Sans] text-lg text-center font-black w-[240px]">Stay productive, wherever you are</div>
+    <div class="never font-[Raleway] text-sm text-center w-[300px]">
       Never let location be an issue when accessing your files. Fylo has you
       covered for all of your file storage needs.
     </div>
-    <div class="never">
+    <div class="never font-[Raleway] text-sm text-center w-[300px]">
       Securely share files and folders with friends, family and colleagues for
       live collaboration. No email attachments required!
     </div>
-    <a href="">
-      See how Fylo works
-    </a>
+    <div class="see flex flex-row ">
+      <button class="flex flex-row items-center gap-2 border-b-[#3c9f8f] border-2">
+        <div class="text-[#3c9f8f] ">See how Fylo works</div>
+        <img src="./images/icon-arrow.svg" alt="" class="w-4 h-4">
+      </button>
+    </div>
   </div>
-  <div class="section4">
-    <img src="./images/icon-quotes.svg" alt="">
-    <div class="quote">
+  <div class="section4 w-[320px] ml-3 h-52 bg-white pl-5 ">
+    <img src="./images/icon-quotes.svg" alt="" class="mt-3">
+    <div class="quote  ">
       Fylo has improved our team productivity by an order of magnitude. Since
       making the switch our team has become a well-oiled collaboration machine.
     </div>
-    <img src="./images/avatar-testimonial.jpg" alt="">
-    <div class="name">Kyle Burton</div>
-    <div class="function">Founder & CEO, Huddle</div>
+    <div class="author flex gap-2">
+      <img src="./images/avatar-testimonial.jpg" alt="" class="w-10 rounded-full h-10">
+      <div class="texts">
+        <div class="name">Kyle Burton</div>
+        <div class="function">Founder & CEO, Huddle</div>
+      </div>
+    </div>
   </div>
   <div class="section5">
     <div class="getearly">

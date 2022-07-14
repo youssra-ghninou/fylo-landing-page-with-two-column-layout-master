@@ -15,8 +15,8 @@
   </style>
 </head>
 <body class=" flex text-center items-center w-[100%] justify-center bg-[#f6f6fe] flex-col "> 
-  <div class="section1 flex w-[100%] justify-between flex-row gap- items-center pt-5 ">
-    <img src="./images/logo.svg" alt="" class=" w-[80px] pl-3 ">
+  <div class="section1 flex w-[100%] mb-10 justify-between flex-row gap- items-center pt-5 ">
+    <img src="./images/logo.svg" alt="" class="  fill-black w-[80px] lg:w-[150px] pl-3 ">
     <div class="banner flex flex-row gap-4" >
       <div class="features text-[	#bfbfbf] font-[Raleway] text-sm font-medium ">
         Features
@@ -25,38 +25,42 @@
       <div class="authentification text-[	#bfbfbf] font-[Raleway] text-sm font-medium">Sign In</div>
     </div>
   </div>
-  <div class="section2 flex w-[100%] flex-col gap-3 items-center ">
+  <div class="section2 flex w-[100%] mb-14 flex-col lg:flex-row-reverse gap-3 lg:gap-10 mt-6 items-center ">
     <img src="./images/illustration-1.svg" alt="" class="w-96 h-64">
-    <div class="all  font-[Open Sans] text-lg text-center font-black  ">All your files in one secure location, accessible anywhere.</div>
-    <div class="fylo font-[Raleway] text-sm text-center  self-center">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers </div>
-    <div class="cases flex flex-col gap-3">
-      <button class="bg-white rounded-md border-slate-900 border-2 w-[300px] h-10 text-left pl-3 text-[#bfbfbf] ">
-        Enter your email...
-      </button>
-      <button class="bg-[#3065f8]  hover:bg-[#38bdf8] shadow-black rounded-md border-transparent border-2 w-[300px] h-10 text-center pl-3 text-white" >
-        Get Started
-      </button>
+    <div class="pg flex flex-col gap-4 ">
+      <div class="all  font-[Open Sans] text-lg lg:text-[30px] text-center lg:text-left font-bold lg:w-[500px] ">All your files in one secure location, accessible anywhere.</div>
+      <div class="fylo font-[Raleway] text-sm text-center lg:text-left lg:w-[500px] lg-mr-10">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers </div>
+      <div class="cases flex flex-col lg:flex-row gap-3">
+        <button class="bg-white rounded-md self-center border-slate-900 border-2 w-[320px] h-10 text-left pl-3 text-[#bfbfbf] ">
+          Enter your email...
+        </button>
+        <button class="bg-[#3065f8]  lg:w-44 self-center hover:bg-[#38bdf8] shadow-black rounded-md border-transparent border-2 w-[320px] h-10 text-center pl-3 text-white" >
+          Get Started
+        </button>
+      </div>
     </div>
   </div>
-  <div class="section3 flex flex-col w-[100%] items-center mt-9 gap-3">
+  <div class="section3 flex flex-col mb-10 lg:flex-row-reverse lg:gap-5 w-[100%] items-center mt-9 gap-3">
     <img src="./images/illustration-2.svg" alt="" class="w-96 h-64">
-    <div class="stay font-[Open Sans] text-lg text-center font-semibold mt-8 ">Stay productive, wherever you are</div>
-    <div class="never font-[Raleway] text-sm text-left ml-7 ">
-      Never let location be an issue when accessing your files. Fylo has you
-      covered for all of your file storage needs.
-    </div>
-    <div class="never font-[Raleway] text-sm text-left ml-7">
-      Securely share files and folders with friends, family and colleagues for
-      live collaboration. No email attachments required!
-    </div>
-    <div class="see flex flex-row ">
-      <button class="flex flex-row items-center gap-2 border-b-[#3c9f8f] border-2">
-        <div class="text-[#3c9f8f] ">See how Fylo works</div>
-        <img src="./images/icon-arrow.svg" alt="" class="w-4 h-4">
-      </button>
+    <div class="pg2 flex flex-col gap-4 text-center items-center lg:items-start ">
+      <div class="stay font-[Open Sans] text-lg lg:text-[30px]  text-center lg:w-[500px] font-bold mt-8 ml-10 ">Stay productive, wherever you are</div>
+      <div class="never font-[Raleway] text-sm text-left ml-7 lg:text-left lg:w-[500px] lg-mr-10">
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </div>
+      <div class="never font-[Raleway] lg:w-[500px] text-sm text-left ml-7 lg:text-left ">
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </div>
+      <div class="see flex flex-row ">
+        <button class="flex bg-transparent items-center flex-row  gap-2 border-b-[#3c9f8f] lg:ml-6 border-2 ">
+          <div class="text-[#3c9f8f] ">See how Fylo works</div>
+          <img src="./images/icon-arrow.svg" alt="" class="w-4 h-4">
+        </button>
+      </div>
     </div>
   </div>
-  <div class="section4 w-[340px] flex flex-col gap-2 ml-3 h-52 shadow-xl bg-white pl-5 mt-7 rounded-md  "> hover::bg-[]
+  <div class="section4 w-[340px] flex flex-col mb-14 lg:self-start gap-2 ml-3 lg:ml-20 lg:mt-[-2rem] h-52 shadow-xl bg-white pl-5 mt-7 rounded-md lg-justify-left "> 
     <img src="./images/icon-quotes.svg" alt="" class="mt-5 w-5">
     <div class="quote fylo font-[Open Sans] text-[12px] w-72 text-left ">
       Fylo has improved our team productivity by an order of magnitude. Since
@@ -70,45 +74,49 @@
       </div>
     </div>
   </div>
-  <div class="section5 bg-[#585989] h-[360px] pt-12 mt-9 flex flex-col items-center gap-3">
-    <div class="getearly font-[Open Sans] text-[22px] text-center font-semibold text-white ">
-      Get early access today
-    </div>
-    <div class="paragraph font-[Raleway]  mb-5 ml-2 mr-2 text-sm text-center text-white">
-      It only takes a minute to sign up and our free starter tier is extremely generous.
-      If you have any questions, our support team would be happy to help you.
+  <div class="section5 bg-[#585989] h-[360px] w-[100%] lg:gap-36 pt-12 mt-9 flex flex-col lg:flex-row  items-center gap-3 lg:ml-20">
+    <div class="get flex flex-col gap-4">
+      <div class="getearly lg:text-left lg:pl-3 font-[Open Sans] text-[22px] text-center font-semibold text-white ">
+        Get early access today
+      </div>
+      <div class="paragraph font-[Raleway] lg:w-[520px] lg:pl-2 lg:text-left mb-5 ml-2 mr-2 text-sm text-center text-white">
+        It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.
+      </div>
     </div>
     <div class="cases flex flex-col gap-3">
       <button class="bg-white rounded-sm  w-[300px] h-10 text-left pl-3 text-[#bfbfbf] ">
         email@example.com
       </button>
-      <button class="bg-[#3065f8] hover:bg-[#38bdf8] shadow-black rounded-sm border-transparent border-2 w-[300px] h-10 text-center pl-3 text-white" >
+      <button class="bg-[#3065f8] lg:w-44 hover:bg-[#38bdf8] shadow-black rounded-sm border-transparent border-2 w-[300px] h-10 text-center pl-3 text-white" >
         Get Started For Free
       </button>
     </div>
   </div> 
    <div class="section6 bg-[#070439] w-[100%] h-[400px] text-white flex flex-col gap-7 items-left pt-6 pl-6">
        <div class="image"><img src="./images/logo.svg" alt="" class=""></div>
-       <div class="contact flex flex-col gap-2">
-        <div class="line1 flex flex-row gap-5">
-          <img src="./images/icon-phone.svg" alt="">
-           <div class="phone">Phone: +1-543-123-4567</div>
-        </div>
-         <div class="line2 flex flex-row gap-4">
-          <img src="./images/icon-email.svg" alt=""> 
-           <div class="email">example@fylo.com</div>
+       <div class="desktop flex flex-col lg:flex-row lg:gap-32 gap-3">
+         <div class="contact flex flex-col gap-2">
+          <div class="line1 flex flex-row gap-5">
+            <img src="./images/icon-phone.svg" alt="">
+             <div class="phone">Phone: +1-543-123-4567</div>
+          </div>
+           <div class="line2 flex flex-row gap-4">
+            <img src="./images/icon-email.svg" alt="">
+             <div class="email">example@fylo.com</div>
+           </div>
          </div>
-       </div>
-       <div class="about text-left ">
-         <div class="pg">About Us</div>
-         <div class="pg">Jobs</div>
-         <div class="pg">Press</div>
-         <div class="pg">Blog</div>
-       </div>
-       <div class="us text-left pb-3">
-         <div class="pg">Contact Us</div>
-         <div class="pg">Terms</div>
-         <div class="pg">Privacy</div>
+         <div class="about text-left ">
+           <div class="pg">About Us</div>
+           <div class="pg">Jobs</div>
+           <div class="pg">Press</div>
+           <div class="pg">Blog</div>
+         </div>
+         <div class="us text-left pb-3">
+           <div class="pg">Contact Us</div>
+           <div class="pg">Terms</div>
+           <div class="pg">Privacy</div>
+         </div>
        </div>
    </div>
 
